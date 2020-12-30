@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #d2dbdd;
+  background-color: #d80d0def;
 }
 
 .headingStyle{
@@ -13,8 +13,8 @@
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
-  color:  #868686;
-  background-color: #fff;
+  color:  red;
+  background-color: black;
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
@@ -24,8 +24,9 @@ height: auto;
 }
 .card{
   margin: 6%;
+  margin-bottom: 20px;
   transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
-  background: white;
+  background: black;
   width: 21.25%;
   border-radius: 12px;
   box-shadow: 0 13px 10px -7px rgba(0,0,0,0.1);
@@ -45,11 +46,11 @@ transition: scale(1.05,1.05);
   border-top-right-radius: 12px; 
 }
 .cardInfo{
-  background-color: #fff;
+  color: white;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   padding: 16px 24px 24px 24px;
-  background-color: #fff;
+  background-color: black;
 }
 .cardCategory{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -58,14 +59,14 @@ transition: scale(1.05,1.05);
   letter-spacing: 2px;
   font-weight: 500;
   color:  #868686;
-  background-color: #fff;
+  background-color: black;
   
 }
 .cardTitle{
   margin-top: 5px;
   margin-bottom: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff;
+  background-color: black;
   text-transform: capitalize;
 }
 button{
@@ -74,9 +75,9 @@ button{
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
-  font-weight: 500;
-  color:  #868686;
-  background-color: #fff;
+  font-weight: 700;
+  color:  black;
+  background-color: rgb(194, 14, 14);
   outline: none;
   border: 1px solid black;
   cursor: pointer;

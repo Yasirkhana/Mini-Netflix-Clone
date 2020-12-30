@@ -9,7 +9,7 @@ function Card (props){
     <img className='cardImg' src={props.imgsrc} alt="movieImg"/>
       <div class="cardInfo">
         <span class="cardCategory">{props.title}</span>
-        <h3 className='cardTitle'> Card Title </h3>
+        <h3 className='cardTitle'> {props.seriesName}</h3>
         <a href={props.link} target="_blank">
           <button> Watch Now </button>
         </a>
